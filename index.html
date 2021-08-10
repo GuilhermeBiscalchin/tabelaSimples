@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css//index.css" />
+    <link rel="stylesheet" href="./css//botao.css" />
+    <title>Tabela Cadastro Produto</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Produtos + Preços</h1>
+        
+      </div>
+    </header>
+    <main>
+      <section class="container">
+        <label for="filtro-tabela">Filtro:</label>
+        <input type="text" name="filtro" id="filtro-tabela" placeholder="Pesquisar produto"/>
+          <table>
+          <hr />
+          <thead>
+            <tr>
+              <th>Descrição</th>
+              <th>Valor Sem Impostos</th>
+              <th>IPI(%)</th>
+              <th>ST(%)</th>
+              <th>Valor Final</th>
+              <th>Quantidade</th>
+              <th>Total C/ Quantidade</th>
+            </tr>
+          </thead>
+          <tbody id="tabela-produtos">
+            <tr class="produto">
+              <td class="info-descricao">Ex:Descrição</td>
+              <td class="info-liquido">Ex: Preço Liquido</td>
+              <td class="info-ipi">Ex:IPI</td>
+              <td class="info-st">Ex:ST</td>
+              <td class="info-final">Ex:Valor Final</td>
+              <td class="info-quantidade">Ex:Quantidade</td>
+              <td class="info-total">Ex:Total</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <section>
+      <form id="form-adiciona">
+        <h2>Adicionar Produto</h2>
+        <ul id="mensagens-erros"></ul>
+        <div class="grupo">
+          <label for="descricao">Descrição:</label>
+          <input type="text" class="campo" name="descricao" placeholder="Nome do produto aqui!"/>
+        </div>
+        <div class="grupo">
+          <label for="liquido">Valor Líquido:</label>
+          <input type="number" class="campo" name="liquido" placeholder=" Ex:1.20" />
+        </div>
+        <div class="grupo">
+          <label for="ipi">IPI:</label>
+          <input type="number" class="campo" name="ipi" placeholder="Ex: 10"/>
+        </div>
+        <div class="grupo">
+          <label for="st">ST:</label>
+          <input type="number" class="campo" name="st" placeholder="Ex: 15" />
+        </div>
+        <div class="grupo">
+          <label for="final">Valor Final:</label>
+          <input type="number" class="campo" name="final" placeholder="Ex 4.50" />
+        </div>
+        <div class="grupo">
+          <label for="quantidade">Quantidade:</label>
+          <input type="number" class="campo"name='quantidade' placeholder="15" />
+        </div>
+        <button id="adicionar-produto" class="botao bto-principal">
+          Adicionar Produto
+        </button>
+      </form>
+    </section>
+    <script src="./js/qtd.js"></script>
+    <script src="./js/form1.js"></script>
+    <script src="./js/remove.js"></script>
+    <script src="./js/filtro.js"></script>
+  </body>
+</html>
