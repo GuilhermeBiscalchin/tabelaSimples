@@ -4,10 +4,10 @@ Tabela Simples, de cadastro de Produtos, onde se passa o os dados no campo input
 
 Usado apenas JavaScript para manipulação de classes ativas e inativas, e criação da tabela no HTML.
 
-![Teste](https://user-images.githubusercontent.com/82482404/128794913-b5f06c30-51fa-4c1a-8e18-91499c839598.jpg)
+![Teste](https://user-images.githubusercontent.com/82482404/128795384-b4dce04e-c893-42e6-9342-0b2d2b309cf5.jpg)
 
 <h2>Inserir Produtos na Tabela</h2>
 
-![Teste2](https://user-images.githubusercontent.com/82482404/128795159-6ae5a366-93b1-45d3-ba37-a298f4c08da6.jpg)
+![Teste2](https://user-images.githubusercontent.com/82482404/128795409-de208306-7ccd-4050-a7d0-f9451735f766.jpg)
 
 <h2> Filtrando Busca,excluindo arquivos</h2>
